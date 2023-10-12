@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.foodrunner.home_fragment"
+        android:label="Home"
+        tools:layout="@layout/home_fragment">
+
+        <action
+            android:id="@+id/nav_signout"
+            app:destination="@+id/confirm_dialog" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.foodrunner.profile_fragment"
+        android:label="Profile"
+        tools:layout="@layout/profile_fragment">
+
+        <action
+            android:id="@+id/nav_signout"
+            app:destination="@+id/confirm_dialog" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_favourites"
+        android:name="com.example.foodrunner.favourite_fragment"
+        android:label="Favourites"
+        tools:layout="@layout/favourite_fragment">
+
+        <action
+            android:id="@+id/nav_signout"
+            app:destination="@+id/confirm_dialog" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_faq"
+        android:name="com.example.foodrunner.faq_fragment"
+        android:label="FAQ"
+        tools:layout="@layout/faq_fragment">
+
+        <action
+            android:id="@+id/nav_signout"
+            app:destination="@+id/confirm_dialog" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_customer_support"
+        android:name="com.example.foodrunner.support_fragment"
+        android:label="Customer Support"
+        tools:layout="@layout/support_fragment">
+
+        <action
+            android:id="@+id/nav_signout"
+            app:destination="@+id/confirm_dialog" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.foodrunner.history_fragment"
+        android:label="Order History"
+        tools:layout="@layout/history_fragment">
+
+        <action
+            android:id="@+id/nav_signout"
+            app:destination="@+id/confirm_dialog" />
+
+    </fragment>
+
+    <dialog
+        android:id="@+id/confirm_dialog"
+        android:name="com.example.foodrunner.dialog_helper"
+        android:label="DialogFragment">
+    </dialog>
+
+</navigation>

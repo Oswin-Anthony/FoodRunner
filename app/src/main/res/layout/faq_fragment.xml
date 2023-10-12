@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".faq_fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginTop="9dp">
+
+            <TextView
+                android:id="@+id/q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q1"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:textColor="@color/Red_500"
+                android:textSize="27sp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"/>
+
+            <TextView
+                android:id="@+id/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/a1"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:textSize="21sp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="21dp"/>
+
+            <TextView
+                android:id="@+id/q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q2"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:textColor="@color/Red_500"
+                android:textSize="27sp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"/>
+
+            <TextView
+                android:id="@+id/a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/a2"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:textSize="21sp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="21dp"/>
+
+            <TextView
+                android:id="@+id/q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q3"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:textColor="@color/Red_500"
+                android:textSize="27sp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"/>
+
+            <TextView
+                android:id="@+id/a3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/a3"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:textSize="21sp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="21dp"/>
+
+            <TextView
+                android:id="@+id/q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q4"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:textColor="@color/Red_500"
+                android:textSize="27sp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"/>
+
+            <TextView
+                android:id="@+id/a4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/a4"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:textSize="21sp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="21dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

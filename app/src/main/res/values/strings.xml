@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="app_name">FoodRunner</string>
+    <string name="icon">icon</string>
+    <string name="mobile_number">📱 Mobile Number</string>
+    <string name="back_arrow">back_arrow</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="or">OR</string>
+    <string name="next">Submit</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="favourites">Favourites</string>
+    <string name="faq_s">FAQ\'s</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="others">Others</string>
+    <string name="customer_support">Customer Support</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rate">Rate</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="rating">Rating</string>
+    <string name="history">Order History</string>
+    <string name="q1">Q. Can you cancel orders?</string>
+    <string name="q2">Q. Do you get a refund after cancelling an order?</string>
+    <string name="q3">Q. How long does the refund process take after the cancellation of an order?</string>
+    <string name="q4">Q. How to login when you have forgotten the password?</string>
+    <string name="a1">A: Yes, you can cancel orders by calling the the delivery person whose number is provided as soon as the order is placed.</string>
+    <string name="a2">A: Yes, you will get a refund, but there will be some amount of cancellation charges applied to it.</string>
+    <string name="a3">A: It will take around 2 to 3 hours.</string>
+    <string name="a4">A: Click on the forgot password option in the login page. Then enter the email id or phone number that you had used to create the account. An OTP will be sent to the same and you can use that OTP to reset the account password.</string>
+    <string name="add">Add</string>
+    <string name="notice">NOTE : Please remember that an email will be sent and you can change your password by using the link</string>
+
+</resources>

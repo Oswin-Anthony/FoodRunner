@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor">
+
+    <ImageView
+        android:id="@+id/img_icon_signup"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/fr_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_signup_title"
+        tools:ignore="ContentDescription" />
+
+
+    <ImageView
+        android:id="@+id/img_back_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:src="@drawable/ic_arrow_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txt_signup_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Register Yourself"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@id/img_back_arrow"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/enter_name"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:background="@drawable/rounded_text_view"
+        android:backgroundTint="#FDFDFD"
+        android:drawableStart="@drawable/ic_user"
+        android:ems="10"
+        android:hint=" Name"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_icon_signup"
+        tools:ignore="HardcodedText,RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/enter_email"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/rounded_text_view"
+        android:backgroundTint="#FDFDFD"
+        android:drawableStart="@drawable/ic_email"
+        android:ems="10"
+        android:hint=" Email Address"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_name"
+        tools:ignore="HardcodedText,RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/enter_phone_num"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/rounded_text_view"
+        android:backgroundTint="#FDFBFB"
+        android:drawableStart="@drawable/ic_phone"
+        android:ems="10"
+        android:hint=" Phone Number"
+        android:inputType="phone"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_email"
+        tools:ignore="HardcodedText,RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/enter_pswd"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/rounded_text_view"
+        android:backgroundTint="#FDFDFD"
+        android:drawableStart="@drawable/ic_lock"
+        android:ems="10"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_phone_num"
+        tools:ignore="HardcodedText,RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/enter_confirm_pswd"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/rounded_text_view"
+        android:backgroundTint="#FDFDFD"
+        android:drawableStart="@drawable/ic_lock"
+        android:ems="10"
+        android:hint=" Confirm Password"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_pswd"
+        tools:ignore="HardcodedText,RtlSymmetry" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="310dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:text="Sign Up"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_confirm_pswd"
+        tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

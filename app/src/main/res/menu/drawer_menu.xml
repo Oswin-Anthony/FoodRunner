@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_menu"
+        android:title="@string/home"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_person_menu"
+        android:title="@string/profile"/>
+
+    <item
+        android:id="@+id/nav_favourites"
+        android:icon="@drawable/ic_favorite_menu"
+        android:title="@string/favourites"/>
+
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/ic_history"
+        android:title="@string/history"/>
+
+    <item
+        android:title="@string/others">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/ic_faq_menu"
+                android:title="@string/faq_s"/>
+
+            <item
+                android:id="@+id/nav_customer_support"
+                android:icon="@drawable/ic_customer_support"
+                android:title="@string/customer_support" />
+
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_logout_menu"
+                android:title="@string/sign_out" />
+
+        </menu>
+
+    </item>
+
+</menu>
